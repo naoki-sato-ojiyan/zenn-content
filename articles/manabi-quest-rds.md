@@ -3,7 +3,7 @@ title: "【まなびクエスト開発日記】AWSにRDSを作成してPostgreSQ
 emoji: "🐘"
 type: "tech"
 topics: ["aws", "rds", "postgresql", "django"]
-published: false
+published: true
 ---
 
 ## はじめに
