@@ -205,14 +205,14 @@ db.t3.micro（変更後）     → 約$15〜/月   ← 開発用はこれ
 RDSの詳細画面 → 「接続とセキュリティ」タブ → エンドポイントをコピー
 
 ```
-例: manabi-quest-db.cf00uqi8kwtd.ap-northeast-1.rds.amazonaws.com
+例: xxxxxxxxxxxx.xxxxxxxxxxxx.ap-northeast-1.rds.amazonaws.com
 ```
 
 このエンドポイントを `DB_HOST` としてDjangoの設定（`.env`）に追加します。
 
 ```bash
 # .env（本番用）
-DB_HOST=manabi-quest-db.cf00uqi8kwtd.ap-northeast-1.rds.amazonaws.com
+DB_HOST=（RDSのエンドポイント）
 DB_PORT=5432
 DB_NAME=manabi_quest
 DB_USER=postgres

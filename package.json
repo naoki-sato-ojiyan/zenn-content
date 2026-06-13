@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/naoki-sato-ojiyan/zenn-content#readme",
   "dependencies": {
-    "zenn-cli": "^0.4.8"
+    "zenn-cli": "^0.5.0"
   }
 }
